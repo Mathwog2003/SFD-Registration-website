@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <!-- Theme Made By www.w3schools.com - No Copyright -->
-  <title>Bootstrap Theme Simply Me</title>
+  <title>CGLUG</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -10,151 +11,186 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
-  body {
-    font: 20px Montserrat, sans-serif;
-    line-height: 1.8;
-    color: #f5f6f7;
-  }
-  p {font-size: 16px;}
-  .margin {margin-bottom: 45px;}
-  .bg-1 { 
-    background-color: #1abc9c; /* Green */
-    color: #ffffff;
-  }
-  .bg-2 { 
-    background-color: #474e5d; /* Dark Blue */
-    color: #ffffff;
-  }
-  .bg-3 { 
-    background-color: #ffffff; /* White */
-    color: #555555;
-  }
-  .bg-4 { 
-    background-color: #2f2f2f; /* Black Gray */
-    color: #fff;
-  }
-  .container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
-  }
-  .navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border: 0;
-    border-radius: 0;
-    margin-bottom: 0;
-    font-size: 12px;
-    letter-spacing: 5px;
-  }
-  .navbar-nav  li a:hover {
-    color: #1abc9c !important;
-  }
+    body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    .margin {
+      margin-bottom: 45px;
+    }
+
+    .bg-1 {
+      background-color: #474e5d;
+      /* Green */
+      color: #ffffff;
+    }
+
+    .bg-2 {
+      background-color: #474e5d;
+      /* Dark Blue */
+      color: #ffffff;
+    }
+
+    .bg-3 {
+      background-color: #ffffff;
+      /* White */
+      color: #555555;
+    }
+
+    .bg-4 {
+      background-color: #2f2f2f;
+      /* Black Gray */
+      color: #fff;
+    }
+
+    .bg-n {
+      background-color: #b3c3c9;
+      /* Green */
+      color: #ffffff;
+    }
+
+    .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
+
+    .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+    }
+
+    .navbar-nav li a:hover {
+      color: #1abc9c !important;
+    }
+
+    a:hover {
+
+      color: #ffffff;
+      /* white color on hover */
+
+    }
   </style>
 </head>
+
 <body>
 
-<!-- Navbar -->
-<nav class="navbar navbar-default">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">CGLUG</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Register for SFD</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-<!-- First Container -->
-<div class="container-fluid bg-1 text-center">
-  <h3 class="margin fw-bold">Lets Celebrate Software Freedom Day</h3>
-  <p>Software Freedom Day (SFD) is a worldwide celebration of Free and Open Source Software (FOSS). Our goal 
-    in this celebration which remembers the benefits of free and open software and promotes its use. 
-    Every third Saturday of September, this date is celebrated by thousands of people all around the planet, 
-    who reminds us the importance of sharing knowledge in computing field. SFD is a public education effort
-    with the aim of increasing awareness of
-    Free Software and its virtues, and encouraging its use.</p>
-    <img src="https://cuddaloreglug.files.wordpress.com/2022/03/3-edited.jpg" class="img-responsive img margin" style="display:inline" alt="Bird" width="350" height="350">
-</div>
-
-<!-- Third Container (Grid) -->
-<div class="container-fluid bg-3 text-center">    
+  <!-- Navbar -->
+  <nav class="navbar navbar-default">
     <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-sm-6 col-12 mb-3">
-            <div style="border: 1px solid black; height: 150px;">
-              <div style="text-align: center;">
-                <h5 style="font-weight: bold;">Free to Use</h5>
-              </div>
-              <div style="text-align: center; " >
-                <p>The Freedom to run the program as you wish for any purpose.</p>
-              </div>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">CGLUG</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#register">Register for SFD</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- First Container -->
+  <div class="container-fluid bg-1 text-center" id="home">
+    <h4><a href="https://ee.kobotoolbox.org/x/QDceVL28" style=" color: #337ab7;">Click to 
+        Register here..</a></h4>
+    <h3 class="margin fw-bold">Lets Celebrate Software Freedom Day</h3>
+    <p>Software Freedom Day (SFD) is a worldwide celebration of Free and Open Source Software (FOSS). Our goal
+      in this celebration which remembers the benefits of free and open software and promotes its use.
+      Every third Saturday of September, this date is celebrated by thousands of people all around the planet,
+      who reminds us the importance of sharing knowledge in computing field. SFD is a public education effort
+      with the aim of increasing awareness of
+      Free Software and its virtues, and encouraging its use.</p>
+    <img src="https://cuddaloreglug.files.wordpress.com/2022/03/3-edited.jpg" class="img-responsive img margin"
+      style="display:inline" alt="Bird" width="350" height="350">
+  </div>
+
+ 
+  <!-- Third Container (Grid) -->
+  <div class="container-fluid bg-3 text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-6 col-12 mb-3">
+          <div style="border: 1px solid black; height: 150px;">
+            <div style="text-align: center;">
+              <h5 style="font-weight: bold;">Free to Use</h5>
+            </div>
+            <div style="text-align: center; ">
+              <p>The Freedom to run the program as you wish for any purpose.</p>
             </div>
           </div>
-          <div class="col-md-3 col-sm-6 col-12 mb-3">
-            <div style="border: 1px solid black; height: 150px;">
-              <div style="text-align: center;">
-                <h5 style="font-weight: bold;">Free to Study</h5>
-              </div>
-              <div style="text-align: center;">
-                <p>The Freedom to study how the program works, and modify it.</p>
-              </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-12 mb-3">
+          <div style="border: 1px solid black; height: 150px;">
+            <div style="text-align: center;">
+              <h5 style="font-weight: bold;">Free to Study</h5>
+            </div>
+            <div style="text-align: center;">
+              <p>The Freedom to study how the program works, and modify it.</p>
             </div>
           </div>
-          <div class="col-md-3 col-sm-6 col-12 mb-3">
-            <div style="border: 1px solid black; height: 150px;">
-              <div style="text-align: center;">
-                <h5 style="font-weight: bold;">Free to Distribute</h5>
-              </div>
-              <div style="text-align: center;">
-                <p>The Freedom to redistribute copies so you can help your neighbour.</p>
-              </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-12 mb-3">
+          <div style="border: 1px solid black; height: 150px;">
+            <div style="text-align: center;">
+              <h5 style="font-weight: bold;">Free to Distribute</h5>
+            </div>
+            <div style="text-align: center;">
+              <p>The Freedom to redistribute copies so you can help your neighbour.</p>
             </div>
           </div>
-          <div class="col-md-3 col-sm-6 col-12 mb-3">
-            <div style="border: 1px solid black; height: 150px;">
-              <div style="text-align: center;">
-                <h5 style="font-weight: bold;">Free to Modify</h5>
-              </div>
-              <div style="text-align: center;">
-                <p>The Freedom to distribute copies of your modified versions of others.</p>
-              </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-12 mb-3">
+          <div style="border: 1px solid black; height: 150px;">
+            <div style="text-align: center;">
+              <h5 style="font-weight: bold;">Free to Modify</h5>
+            </div>
+            <div style="text-align: center;">
+              <p>The Freedom to distribute copies of your modified versions of others.</p>
             </div>
           </div>
         </div>
       </div>
-</div>
+    </div>
+  </div>
 
-<!-- Second Container -->
-<div class="container-fluid bg-2 text-center">
-  <h3 class="margin">Who Are We ?</h3>
-  <p>Cuddalore GLUG is a not-for-profit organization and a social movement which aims at enlightening
-    the masses in Free Software, Openness, Free Culture and Knowledge Freedom.</p>
-  <p>We believe in a world where every child can read. Our mission is to invest in early childhood education
-    in order to empower the next generation. We do that, by creating educational programs and providing
-    necessary resources in underprivileged areas. We believe in smart fund allocation, and therefore we
-    employ minimal staff.</p> 
-</div>
+  <!-- Second Container -->
+  <div class="container-fluid bg-2 text-center" id="about">
+    <h3 class="margin">Who Are We ?</h3>
+    <p>Cuddalore GLUG is a not-for-profit organization and a social movement which aims at enlightening
+      the masses in Free Software, Openness, Free Culture and Knowledge Freedom.</p>
+    <p>We believe in a world where every child can read. Our mission is to invest in early childhood education
+      in order to empower the next generation. We do that, by creating educational programs and providing
+      necessary resources in underprivileged areas. We believe in smart fund allocation, and therefore we
+      employ minimal staff.</p>
+  </div>
 
 
 
-<!-- Footer -->
-<footer class="container-fluid bg-4 text-center">
-    <img src="/home/anam/sfd-cglug-reg/sfd-clgug-reg/IMG20231015190424.jpg" alt="Girl in a jacket" width="500" height="600">
-    <img src="https://www.w3schools.com/images/lamp.jpg" alt="Lamp" width="32" height="32">
 
-  <p><a href="#">Copyleft By CGLUG</a><img src="https://www.w3schools.com/images/lamp.jpg" alt="Lamp" width="32" height="32">
-  </p> 
-</footer>
+  <!-- Footer -->
+  <footer class="container-fluid bg-4 text-center">
+    <img src="cglugshine3.png" alt="Girl in a jacket" width="140" height="200">
+
+    <p><a href="https://cuddaloreglug.wordpress.com/">Copyleft By CGLUG</a></p>
+  </footer>
 
 </body>
+
 </html>
